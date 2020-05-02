@@ -23,8 +23,8 @@ Input (in Wiener's approach): 72-79, ..., 0-7
    
 Example (we assume that the keystream is 128 bits long):
 
-Input (in our approach): 0, 1, 2, ..., 120, ..., 127
+Keystream (in our approach): 0, 1, 2, ..., 120, ..., 127
 
-Input (in Wiener's approach): 7-0, ..., 127-120   
+Keystream (in Wiener's approach): 7-0, ..., 127-120   
 
 It is believed that, with our approach, the confusion about keeping track of the bits during trying out different test cases and debugging is going to be much simpler.
