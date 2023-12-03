@@ -13,7 +13,7 @@ Our solution has some differences from Wiemer's and we would like to explain wha
    the byte-wise approach is chosen, which implies that groupings are made of 8-bits. Afterward, the first bytes are moved to the end and the bits inside these groups are also reversed as well.
 
 
-Example:
+**Example**:
 
 Input (in our approach): 0, 1, 2, ..., 79
 
@@ -23,8 +23,8 @@ Input (in Wiener's approach): 72-79, ..., 0-7
    On the other hand, in Wiener's implementation, the bits of the keystream are grouped byte-wise again. While it does not send the first bytes to the end like in 1),
    it is reversing the order of the bits in each group.
    
-Example (we assume that the keystream is 128 bits long):
-
+**Example (we assume that the keystream is 128 bits long):
+**
 Keystream (in our approach): 0, 1, 2, ..., 120, ..., 127
 
 Keystream (in Wiener's approach): 7-0, ..., 127-120   
