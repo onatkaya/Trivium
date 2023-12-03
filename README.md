@@ -1,15 +1,18 @@
+## Description
+
 Created by Feyzi Ege Kumec (Sabanci University) and Onat Kaya (Sabanci University).
 
 In the code below, a Python version of the stream cipher Trivium is implemented.
 (To know more about Trivium, the paper published by De Canniere (KU Leuven) and Preneel (KU Leuven) could be checked out, which could be found in this repository.)
 
-One of the most popular Python implementations that we found on the internet was created by Friedrich Wiemer (Ruhr-University Bochum). 
-(Link: https://github.com/pfasante/trivium/blob/master/src/python/trivium.py).
+One of the most popular Python implementations that we found on the internet was created by [Friedrich Wiemer (Ruhr-University Bochum).] 
+(https://github.com/pfasante/trivium/blob/master/src/python/trivium.py)
 
 Our solution has some differences from Wiemer's and we would like to explain what are these:
 
 1) First of all, our code handles inputs, 80-bit key and 80-bit initial value, bitwise and there is no change in the order. In Wiener's approach
    the byte-wise approach is chosen, which implies that groupings are made of 8-bits. Afterward, the first bytes are moved to the end and the bits inside these groups are also reversed as well.
+
 
 Example:
 
