@@ -23,8 +23,8 @@ Input (in Wiener's approach): 72-79, ..., 0-7
    On the other hand, in Wiener's implementation, the bits of the keystream are grouped byte-wise again. While it does not send the first bytes to the end like in 1),
    it is reversing the order of the bits in each group.
    
-**Example (we assume that the keystream is 128 bits long):
-**
+**Example (we assume that the keystream is 128 bits long):**
+
 Keystream (in our approach): 0, 1, 2, ..., 120, ..., 127
 
 Keystream (in Wiener's approach): 7-0, ..., 127-120   
