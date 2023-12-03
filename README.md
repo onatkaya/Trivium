@@ -5,8 +5,8 @@ Created by Feyzi Ege Kumec (Sabanci University) and Onat Kaya (Sabanci Universit
 In the code below, a Python version of the stream cipher Trivium is implemented.
 (To know more about Trivium, the paper published by De Canniere (KU Leuven) and Preneel (KU Leuven) could be checked out, which could be found in this repository.)
 
-One of the most popular Python implementations that we found on the internet was created by [Friedrich Wiemer (Ruhr-University Bochum).] 
-(https://github.com/pfasante/trivium/blob/master/src/python/trivium.py)
+One of the most popular Python implementations that we found on the internet was created by [Friedrich Wiemer (Ruhr-University Bochum)] 
+(https://github.com/pfasante/trivium/blob/master/src/python/trivium.py).
 
 Our solution has some differences from Wiemer's and we would like to explain what are these:
 
